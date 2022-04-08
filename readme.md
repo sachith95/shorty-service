@@ -60,6 +60,14 @@ php artisan passport:install
 php artisan db:seed
 ```
 
+## Issuing Access Token
+
+```bash
+php artisan passport:client
+```
+
+Using OAuth, you need to generate client ID and secret. that need to be stored in the react application .env file.
+
 ## API documentation
 
 To generate API documentation run the following command
