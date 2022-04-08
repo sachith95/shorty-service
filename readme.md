@@ -2,6 +2,10 @@
 
 This project is a demo URL shortener service that developed with [Laravel](https://laravel.com/).
 
+## Short URL Algorithm
+
+This project uses md5 algorithm to generate string from current date and time[microtime(https://www.php.net/manual/en/function.microtime.php)] with random characters. that substring from the first 6 characters of the md5 string.
+
 ### Features
 
 - create account using email and password
